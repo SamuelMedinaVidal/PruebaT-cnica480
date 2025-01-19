@@ -5,7 +5,7 @@ public abstract class Almacenamiento implements Girar{
     private String nombre;
     private int capacidad;
     private HashMap<String, Integer> contenido;
-    private final String Marca; // Atributo para la marca, sin setter
+    private final String Marca; //Atributo para la marca, sin setter
 
     public Almacenamiento(String nombre, int capacidad, HashMap<String, Integer> contenido, String marca) {
         this.nombre = nombre;
