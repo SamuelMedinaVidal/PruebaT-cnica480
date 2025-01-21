@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class CD extends Almacenamiento implements Girar{
+public class CD extends Almacenamiento{
 
     public CD(String nombre, int capacidad, HashMap<String, Integer> contenido, String marca) {
         super(nombre, capacidad, contenido, marca);
