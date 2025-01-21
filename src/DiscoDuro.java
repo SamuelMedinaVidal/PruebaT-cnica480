@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class DiscoDuro extends Almacenamiento implements Girar{
+public class DiscoDuro extends Almacenamiento{
 
     public DiscoDuro(String nombre, int capacidad, HashMap<String, Integer> contenido, String marca) {
         super(nombre, capacidad, contenido, marca);
